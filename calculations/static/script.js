@@ -64,15 +64,15 @@ else {
 alert("invalid input");
 return false; }
 }
-function volume() {
+function area() {
 const num1 = document.getElementById("input1").value;
 const num2 = document.getElementById("input2").value;
-const vol = 0.5*num1*1*num2*1;
-document.getElementById("output1").innerHTML = vol.toFixed(2)+" Meters"+"2".sup();
+const area = 0.5*num1*1*num2*1;
+document.getElementById("output1").innerHTML = area.toFixed(2)+" Meters"+"2".sup();
 }
-function area() {
+function perimeter() {
 const num3 = document.getElementById("input3").value;
 const num4 = document.getElementById("input4").value;
-const area = 2*(num3*1+num4*1);
-document.getElementById("output2").innerHTML = area.toFixed(2)+" Meters";
+const per = 2*(num3*1+num4*1);
+document.getElementById("output2").innerHTML = per.toFixed(2)+" Meters";
 }
